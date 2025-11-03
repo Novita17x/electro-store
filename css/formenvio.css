@@ -1,0 +1,40 @@
+/* Estilos para el formulario de dirección de envío */
+.contenedorDelHistorial{
+    display: flex;
+    flex-direction: column;
+}
+.address-form {
+    
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.submit-btn {
+    display: block;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}

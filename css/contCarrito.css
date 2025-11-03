@@ -1,0 +1,87 @@
+/* Estilos para el contenedor del carrito */
+.carrito-container {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    gap: 1.5rem; /* Espacio entre cada elemento */
+}
+
+/* Estilos para cada producto en el carrito */
+.producto {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: var(--clr-gray); /* Color de fondo del producto */
+    color: var(--clr-main); /* Color del texto */
+    padding: .5rem; /* Espaciado interno del producto */
+    padding-right: 2rem; /* Espaciado a la derecha del producto */
+    border-radius: 1rem; /* Borde redondeado */
+    margin-top: .5rem; /* Espacio superior entre productos */
+}
+
+.producto img {
+    width: 8rem; /* Ancho de la imagen del producto */
+    border-radius: 1rem; /* Borde redondeado para la imagen */
+}
+
+.name-product-car {
+    width: 16rem; /* Ancho del nombre del producto */
+}
+
+.delete-product-car {
+    border: 0; /* Quita el borde del botón */
+    background-color: transparent; /* Fondo transparente */
+    color: var(--clr-red); /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.cart-action {
+    margin-top: 1.5rem; /* Espacio superior para las acciones del carrito */
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    justify-content: right; /* Alinea las acciones a la derecha */
+}
+
+/* Estilos para el primer botón de acción */
+.boton1 {
+    border: 0; /* Quita el borde del botón */
+    background-color: var(--clr-gray); /* Color de fondo del botón */
+    padding: 1rem; /* Espaciado interno del botón */
+    border-radius: 1rem; /* Borde redondeado */
+    color: var(--clr-main); /* Color del texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.boton1:hover {
+    background-color: var(--clr-main); /* Cambia el color de fondo al pasar el cursor */
+    color: var(--clr-white); /* Cambia el color del texto al pasar el cursor */
+}
+
+/* Estilos para el segundo botón de acción */
+.boton2 {
+    border: 0; /* Quita el borde del botón */
+    background-color: var(--clr-main); /* Color de fondo del botón */
+    padding: 1rem; /* Espaciado interno del botón */
+    color: var(--clr-white); /* Color del texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 1rem; /* Borde redondeado */
+}
+
+/* Estilos para el botón de eliminar */
+.boton-eliminar {
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+}
+
+.boton-eliminar button {
+    background-color: var(--clr-main); /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 50%; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+}
+
+.boton-eliminar button:hover {
+    background-color: #c82333; /* Cambia el color de fondo al pasar el cursor */
+}
