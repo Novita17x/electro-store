@@ -42,7 +42,7 @@ $nombre_usuario = isset($_SESSION['nombre_usuario']) ? $_SESSION['nombre_usuario
                 </div>
                 <div class="perfil">
                     <i class="fa-solid fa-user"></i>
-                    <p id="nombre-usuario"><?php echo htmlspecialchars($nombre_usuario); ?></p>
+                    <p  style = "font-weight: bold;" id="nombre-usuario"><?php echo htmlspecialchars($nombre_usuario); ?></p>
                 </div>
                 
 
@@ -86,8 +86,9 @@ $nombre_usuario = isset($_SESSION['nombre_usuario']) ? $_SESSION['nombre_usuario
 
         <div id="pdf-content">
             <main> <!-- Contenido principal de la página -->
+                <h1  style = "text-align: center; ">Historial de Compras de  <?php echo htmlspecialchars($nombre_usuario); ?></h1> <!--Título de la sección principal -->
                 <div id="historial-container" class="container-products">
-                    <h1>Historial de Compras de  <?php echo htmlspecialchars($nombre_usuario); ?></h1> <!--Título de la sección principal -->
+                    
                     <?php
                     // Conectar a la base de datos
                     $conn = $cnx;

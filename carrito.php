@@ -92,7 +92,7 @@ $conexion->close();
             </div>
             <div class="perfil">
                 <i class="fa-solid fa-user"></i>
-                <p id="nombre-usuario"><?php echo htmlspecialchars($nombre_usuario); ?></p>
+                <p style = "font-weight: bold;" id="nombre-usuario"><?php echo htmlspecialchars($nombre_usuario); ?></p>
             </div>
             <ul class="nav-links">
                 <li>

@@ -17,7 +17,7 @@ table th {
 
 th{
     color: white;
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: center;
     padding: 15px 30px; 
 }
 
@@ -32,8 +32,8 @@ th{
 
 #historial-container {
     width: 100%;
-    max-width: 800px; /* Ajusta este valor según sea necesario */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px; /* Añade un poco de padding si es necesario */
+    padding: 20px; 
     display: flex;
 }
